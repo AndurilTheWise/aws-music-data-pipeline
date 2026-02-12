@@ -1,0 +1,9 @@
+apache-airflow>=2.5.0
+apache-airflow-providers-amazon
+apache-airflow-providers-docker
+dbt-core>=1.5.0
+dbt-postgres
+boto3
+requests
+pytest
+black
