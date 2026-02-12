@@ -1,0 +1,12 @@
+dbt_modeling:
+  outputs:
+    dev:
+      dbname: "{{ env_var('DBT_REDSHIFT_DBNAME', 'dev') }}"
+      host: "{{ env_var('DBT_REDSHIFT_HOST') }}"
+      password: "{{ env_var('DBT_REDSHIFT_PASSWORD') }}"
+      port: "{{ env_var('DBT_REDSHIFT_PORT', '5439') | int }}"
+      schema: "{{ env_var('DBT_REDSHIFT_SCHEMA', 'deftunes_serving') }}"
+      threads: "{{ env_var('DBT_THREADS', '1') | int }}"
+      type: redshift
+      user: "{{ env_var('DBT_REDSHIFT_USER') }}"
+  target: dev
