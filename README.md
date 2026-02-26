@@ -4,7 +4,7 @@ An end-to-end data engineering project that ingests music activity data, transfo
 
 This project demonstrates production-style practices across orchestration, transformation, warehouse modeling, and infrastructure-as-code.
 
-![Music Data Platform Architecture](data_quality_and_orchestration/images/Capstone-diagram2.png)
+![Music Data Platform Architecture](data_quality_and_orchestration/Capstone-diagram2.png)
 
 ---
 
